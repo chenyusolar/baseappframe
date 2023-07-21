@@ -1,0 +1,11 @@
+$color_: #007aff;
+$fontSize_: 32rpx;
+
+@mixin flex_content($flex, $name) {
+  display: $flex;
+  justify-content: $name;
+}
+
+@mixin flex($flex: flex) {
+  display: $flex;
+}
